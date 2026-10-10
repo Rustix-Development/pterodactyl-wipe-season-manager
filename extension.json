@@ -1,0 +1,43 @@
+{
+    "$schema": "./node_modules/@pterodactyl/sdk/manifest.schema.json",
+    "id": "wipe-season-manager",
+    "name": "Wipe & Season Manager",
+    "version": "1.0.0",
+    "description": "Automatic, scheduled wipes for Rust and other games: warnings in game, a backup first, file cleanup, seed and map rotation, Discord posts and a full history.",
+    "author": "RustixDev",
+    "icon": "calendar-sync",
+    "requires": {
+        "panel": "^2.0.0-dev",
+        "sdk": ">=2.0.0-beta.4 <3.0",
+        "php": "^8.3"
+    },
+    "provider": "RustixDev\\WipeSeasonManager\\WipeSeasonManagerProvider",
+    "ui": {
+        "entry": "dist/client.js",
+        "mode": "native",
+        "prefix": "rxws",
+        "screens": [
+            {
+                "id": "wipes",
+                "area": "server",
+                "path": "wipes",
+                "permission": [
+                    "ext.wipe-season-manager.manage"
+                ],
+                "nav": {
+                    "label": "Wipes",
+                    "icon": "calendar-sync"
+                }
+            },
+            {
+                "id": "overview",
+                "area": "admin",
+                "path": "wipes",
+                "nav": {
+                    "label": "Wipes",
+                    "icon": "calendar-sync"
+                }
+            }
+        ]
+    }
+}

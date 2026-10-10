@@ -1,0 +1,11 @@
+{
+    "description": "Automatic, scheduled wipes for Rust and other games: warnings in game, a backup first, file cleanup, seed and map rotation, Discord posts and a full history.",
+    "autoload": {
+        "psr-4": {
+            "RustixDev\\WipeSeasonManager\\": "src/"
+        }
+    },
+    "config": {
+        "autoloader-suffix": "WipeSeasonManagerExtension"
+    }
+}

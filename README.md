@@ -48,14 +48,14 @@ Open **Admin → Extensions → Wipe & Season Manager → Settings**.
 
 ## Install
 
-1. Download `wipe-season-manager-1.0.0.pteroext` from the release.
+1. Download `wipe-season-manager-<version>.pteroext` from the [latest release](https://github.com/Mkkbeydoun/pterodactyl-wipe-season-manager/releases/latest).
 2. In the panel, open **Admin → Extensions**, upload the file and enable it.
 3. Reload the panel.
 
 From a terminal instead:
 
 ```sh
-php artisan p:extension:install /path/to/wipe-season-manager-1.0.0.pteroext --enable
+php artisan p:extension:install /path/to/wipe-season-manager-<version>.pteroext --enable
 ```
 
 ## API
@@ -84,8 +84,16 @@ php artisan p:extension:pack /path/to/wipe-season-manager
 
 ## Uninstall
 
+Remove it under **Admin → Extensions**, or from a terminal:
+
 ```sh
 php artisan p:extension:remove wipe-season-manager
 ```
 
 Removing the extension stops all wipes. Its plans and history stay in the database tables `ext_wipe_season_manager_plans` and `ext_wipe_season_manager_runs`, and backups it made stay on the servers.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
+
+This is a community extension and is not affiliated with or endorsed by Pterodactyl.

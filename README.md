@@ -48,7 +48,7 @@ Open **Admin → Extensions → Wipe & Season Manager → Settings**.
 
 ## Install
 
-1. Download `wipe-season-manager-<version>.pteroext` from the [latest release](https://github.com/Mkkbeydoun/pterodactyl-wipe-season-manager/releases/latest).
+1. Download `wipe-season-manager-<version>.pteroext` from the [latest release](https://github.com/Rustix-Development/pterodactyl-wipe-season-manager/releases/latest).
 2. In the panel, open **Admin → Extensions**, upload the file and enable it.
 3. Reload the panel.
 

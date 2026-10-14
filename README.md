@@ -41,7 +41,7 @@ Open **Admin → Extensions → Wipe & Season Manager → Settings**.
 
 ## Requirements
 
-- Pterodactyl Panel 2.0 (2.0-develop or later)
+- Pterodactyl Panel v2.0.0-beta.1 or later
 - PHP 8.3+
 - The panel's scheduler running every minute (the `schedule:run` cron entry from the panel install guide).
 - Backup slots on servers that use "Back up first".

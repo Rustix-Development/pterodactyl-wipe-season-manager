@@ -2,13 +2,13 @@
     "$schema": "./node_modules/@pterodactyl/sdk/manifest.schema.json",
     "id": "wipe-season-manager",
     "name": "Wipe & Season Manager",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Automatic, scheduled wipes for Rust and other games: warnings in game, a backup first, file cleanup, seed and map rotation, Discord posts and a full history.",
     "author": "RustixDev",
     "icon": "calendar-sync",
     "requires": {
         "panel": "^2.0.0-dev",
-        "sdk": ">=2.0.0-beta.4 <3.0",
+        "sdk": ">=2.0.0-beta.6 <3.0",
         "php": "^8.3"
     },
     "provider": "RustixDev\\WipeSeasonManager\\WipeSeasonManagerProvider",
